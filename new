@@ -1,0 +1,621 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Myself</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #fce4ec, #e1bee7);
+            color: #333;
+            line-height: 1.7;
+        }
+
+        header {
+            background: linear-gradient(135deg, #8e24aa, #ec407a);
+            color: white;
+            text-align: center;
+            padding: 45px 15px;
+        }
+
+        header h1 {
+            font-size: 38px;
+            margin-bottom: 10px;
+        }
+
+        nav {
+            background: #6a1b9a;
+            padding: 14px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 12px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #ffccbc;
+        }
+
+        section {
+            background: white;
+            max-width: 850px;
+            margin: 25px auto;
+            padding: 25px;
+            border-radius: 18px;
+            box-shadow: 0 5px 15px #00000015;
+        }
+
+        h2 {
+            color: #8e24aa;
+            margin-bottom: 12px;
+        }
+
+        ul {
+            padding-left: 25px;
+        }
+
+        .quote {
+            background: #fce4ec;
+            padding: 18px;
+            border-left: 5px solid #ec407a;
+            border-radius: 8px;
+            font-style: italic;
+        }
+
+        button {
+            background: #8e24aa;
+            color: white;
+            border: none;
+            padding: 12px 22px;
+            border-radius: 25px;
+            cursor: pointer;
+            margin-top: 15px;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background: #ec407a;
+        }
+
+        footer {
+            text-align: center;
+            padding: 22px;
+            background: #6a1b9a;
+            color: white;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 29px;
+            }
+
+            nav a {
+                display: inline-block;
+                margin: 5px;
+            }
+
+            section {
+                margin: 16px;
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Hello, I'm Abhi Raksha! 💜</h1>
+        <p>A dreamer | A learner | A future entrepreneur</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#hobbies">Hobbies</a>
+        <a href="#dreams">My Dreams</a>
+    </nav>
+
+    <section id="about">
+        <h2>🌸 About Me</h2>
+        <p>
+            Hi! I am Abhi Raksha. I am a curious and ambitious person
+            who loves learning new things and exploring the world.
+            I believe every day is an opportunity to grow, learn,
+            and become a better version of myself.
+        </p>
+    </section>
+
+    <section id="education">
+        <h2>🎓 My Education</h2>
+        <p>
+            I am a first-year Electronics and Communication Engineering
+            (ECE) student.
+        </p>
+        <p>
+            I am interested in technology, creativity, and discovering
+            new ideas that can make a difference.
+        </p>
+    </section>
+
+    <section id="hobbies">
+        <h2>🎵 Things I Love</h2>
+        <ul>
+            <li>Listening to music</li>
+            <li>Singing songs</li>
+            <li>Reading books</li>
+            <li>Fitness and staying active</li>
+            <li>Travelling and exploring new places</li>
+        </ul>
+    </section>
+
+    <section id="dreams">
+        <h2>🚀 My Dreams and Goals</h2>
+        <ul>
+            <li>Become a successful entrepreneur.</li>
+            <li>Travel around the world and explore different cultures.</li>
+            <li>Improve my knowledge and skills.</li>
+            <li>Follow my passion for singing.</li>
+            <li>Make my family proud.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>✨ My Favourite Quote</h2>
+        <p class="quote">
+            "Dream big, work hard, stay curious, and create your
+            own beautiful story."
+        </p>
+
+        <button onclick="showMessage()">
+            Click for a Message 💖
+        </button>
+
+        <p id="message"></p>
+    </section>
+
+    <footer>
+        <p>Made with 💜 by Abhi Raksha</p>
+        <p>© 2026 | My Personal Website</p>
+    </footer>
+
+    <script>
+        function showMessage() {
+            document.getElementById("message").innerHTML =
+                "Believe in yourself! Your journey is just beginning. 🌷";
+        }
+    </script>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Myself</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #fce4ec, #e1bee7);
+            color: #333;
+            line-height: 1.7;
+        }
+
+        header {
+            background: linear-gradient(135deg, #8e24aa, #ec407a);
+            color: white;
+            text-align: center;
+            padding: 45px 15px;
+        }
+
+        header h1 {
+            font-size: 38px;
+            margin-bottom: 10px;
+        }
+
+        nav {
+            background: #6a1b9a;
+            padding: 14px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 12px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #ffccbc;
+        }
+
+        section {
+            background: white;
+            max-width: 850px;
+            margin: 25px auto;
+            padding: 25px;
+            border-radius: 18px;
+            box-shadow: 0 5px 15px #00000015;
+        }
+
+        h2 {
+            color: #8e24aa;
+            margin-bottom: 12px;
+        }
+
+        ul {
+            padding-left: 25px;
+        }
+
+        .quote {
+            background: #fce4ec;
+            padding: 18px;
+            border-left: 5px solid #ec407a;
+            border-radius: 8px;
+            font-style: italic;
+        }
+
+        button {
+            background: #8e24aa;
+            color: white;
+            border: none;
+            padding: 12px 22px;
+            border-radius: 25px;
+            cursor: pointer;
+            margin-top: 15px;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background: #ec407a;
+        }
+
+        footer {
+            text-align: center;
+            padding: 22px;
+            background: #6a1b9a;
+            color: white;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 29px;
+            }
+
+            nav a {
+                display: inline-block;
+                margin: 5px;
+            }
+
+            section {
+                margin: 16px;
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Hello, I'm Abhi Raksha! 💜</h1>
+        <p>A dreamer | A learner | A future entrepreneur</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#hobbies">Hobbies</a>
+        <a href="#dreams">My Dreams</a>
+    </nav>
+
+    <section id="about">
+        <h2>🌸 About Me</h2>
+        <p>
+            Hi! I am Abhi Raksha. I am a curious and ambitious person
+            who loves learning new things and exploring the world.
+            I believe every day is an opportunity to grow, learn,
+            and become a better version of myself.
+        </p>
+    </section>
+
+    <section id="education">
+        <h2>🎓 My Education</h2>
+        <p>
+            I am a first-year Electronics and Communication Engineering
+            (ECE) student.
+        </p>
+        <p>
+            I am interested in technology, creativity, and discovering
+            new ideas that can make a difference.
+        </p>
+    </section>
+
+    <section id="hobbies">
+        <h2>🎵 Things I Love</h2>
+        <ul>
+            <li>Listening to music</li>
+            <li>Singing songs</li>
+            <li>Reading books</li>
+            <li>Fitness and staying active</li>
+            <li>Travelling and exploring new places</li>
+        </ul>
+    </section>
+
+    <section id="dreams">
+        <h2>🚀 My Dreams and Goals</h2>
+        <ul>
+            <li>Become a successful entrepreneur.</li>
+            <li>Travel around the world and explore different cultures.</li>
+            <li>Improve my knowledge and skills.</li>
+            <li>Follow my passion for singing.</li>
+            <li>Make my family proud.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>✨ My Favourite Quote</h2>
+        <p class="quote">
+            "Dream big, work hard, stay curious, and create your
+            own beautiful story."
+        </p>
+
+        <button onclick="showMessage()">
+            Click for a Message 💖
+        </button>
+
+        <p id="message"></p>
+    </section>
+
+    <footer>
+        <p>Made with 💜 by Abhi Raksha</p>
+        <p>© 2026 | My Personal Website</p>
+    </footer>
+
+    <script>
+        function showMessage() {
+            document.getElementById("message").innerHTML =
+                "Believe in yourself! Your journey is just beginning. 🌷";
+        }
+    </script>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Myself</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #fce4ec, #e1bee7);
+            color: #333;
+            line-height: 1.7;
+        }
+
+        header {
+            background: linear-gradient(135deg, #8e24aa, #ec407a);
+            color: white;
+            text-align: center;
+            padding: 45px 15px;
+        }
+
+        header h1 {
+            font-size: 38px;
+            margin-bottom: 10px;
+        }
+
+        nav {
+            background: #6a1b9a;
+            padding: 14px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 12px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #ffccbc;
+        }
+
+        section {
+            background: white;
+            max-width: 850px;
+            margin: 25px auto;
+            padding: 25px;
+            border-radius: 18px;
+            box-shadow: 0 5px 15px #00000015;
+        }
+
+        h2 {
+            color: #8e24aa;
+            margin-bottom: 12px;
+        }
+
+        ul {
+            padding-left: 25px;
+        }
+
+        .quote {
+            background: #fce4ec;
+            padding: 18px;
+            border-left: 5px solid #ec407a;
+            border-radius: 8px;
+            font-style: italic;
+        }
+
+        button {
+            background: #8e24aa;
+            color: white;
+            border: none;
+            padding: 12px 22px;
+            border-radius: 25px;
+            cursor: pointer;
+            margin-top: 15px;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background: #ec407a;
+        }
+
+        footer {
+            text-align: center;
+            padding: 22px;
+            background: #6a1b9a;
+            color: white;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 29px;
+            }
+
+            nav a {
+                display: inline-block;
+                margin: 5px;
+            }
+
+            section {
+                margin: 16px;
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Hello, I'm Abhi Raksha! 💜</h1>
+        <p>A dreamer | A learner | A future entrepreneur</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#hobbies">Hobbies</a>
+        <a href="#dreams">My Dreams</a>
+    </nav>
+
+    <section id="about">
+        <h2>🌸 About Me</h2>
+        <p>
+            Hi! I am Abhi Raksha. I am a curious and ambitious person
+            who loves learning new things and exploring the world.
+            I believe every day is an opportunity to grow, learn,
+            and become a better version of myself.
+        </p>
+    </section>
+
+    <section id="education">
+        <h2>🎓 My Education</h2>
+        <p>
+            I am a first-year Electronics and Communication Engineering
+            (ECE) student.
+        </p>
+        <p>
+            I am interested in technology, creativity, and discovering
+            new ideas that can make a difference.
+        </p>
+    </section>
+
+    <section id="hobbies">
+        <h2>🎵 Things I Love</h2>
+        <ul>
+            <li>Listening to music</li>
+            <li>Singing songs</li>
+            <li>Reading books</li>
+            <li>Fitness and staying active</li>
+            <li>Travelling and exploring new places</li>
+        </ul>
+    </section>
+
+    <section id="dreams">
+        <h2>🚀 My Dreams and Goals</h2>
+        <ul>
+            <li>Become a successful entrepreneur.</li>
+            <li>Travel around the world and explore different cultures.</li>
+            <li>Improve my knowledge and skills.</li>
+            <li>Follow my passion for singing.</li>
+            <li>Make my family proud.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>✨ My Favourite Quote</h2>
+        <p class="quote">
+            "Dream big, work hard, stay curious, and create your
+            own beautiful story."
+        </p>
+
+        <button onclick="showMessage()">
+            Click for a Message 💖
+        </button>
+
+        <p id="message"></p>
+    </section>
+
+    <footer>
+        <p>Made with 💜 by Abhi Raksha</p>
+        <p>© 2026 | My Personal Website</p>
+    </footer>
+
+    <script>
+        function showMessage() {
+            document.getElementById("message").innerHTML =
+                "Believe in yourself! Your journey is just beginning. 🌷";
+        }
+    </script>
+
+</body>
+</html>
